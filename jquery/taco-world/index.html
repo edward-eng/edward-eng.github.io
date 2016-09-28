@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Taco World</title>
+</head>
+<body>
+	<h1 id="main_title">Taco World - The World's Best Tacos</h1>
+		<p>We use the freshest local ingredients. Many of them are organic. We also make our own taco shells and tortillas in house.</p>
+	<h2 id="history">A Bit of Taco World History</h2>
+		<p>We got started in 1949 as a small mom-and-pop shop in Los Angeles, California. And now we have 14 locations across the United States. The cool thing is that each shop still has its own mom-and-pop feel to it, so we haven't forgetten our roots. We hope you enjoy our tacos as much as we do!</p>
+	<h3 id="tacos">Our Delicious Tacos</h3>
+	<button id="taco_wave">Click for a Taco Wave!</button><br><br>
+	<img id="taco_pic" src="images/taco-world.jpg">
+	<script src="js/script.js"></script>
+	<script src="jquery/jquery-3.1.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#taco_wave").click(function(){
+				$("#taco_pic").hide(300).show(1000);
+			});
+		});
+	</script>
+</body>
+</html>
