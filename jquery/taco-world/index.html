@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<title>Taco World</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
 </head>
 <body>
 	<h1 id="main_title">Taco World - The World's Best Tacos</h1>
@@ -11,14 +13,5 @@
 	<h3 id="tacos">Our Delicious Tacos</h3>
 	<button id="taco_wave">Click for a Taco Wave!</button><br><br>
 	<img id="taco_pic" src="images/taco-world.jpg">
-	<script src="js/script.js"></script>
-	<script src="jquery/jquery-3.1.1.js"></script>
-	<script>
-		$(document).ready(function(){
-			$("#taco_wave").click(function(){
-				$("#taco_pic").hide(300).show(1000);
-			});
-		});
-	</script>
 </body>
 </html>
